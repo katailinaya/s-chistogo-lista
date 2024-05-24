@@ -1,0 +1,285 @@
+body {
+    font-family: Inter, sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    background-color: #525050
+}
+
+body,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+ul,
+ol,
+blockquote {
+  margin: 0;
+  padding: 0;
+}
+
+.accent-span {
+    display: block;
+}
+
+.text-center {
+    text-align: center;
+}
+
+.text-right {
+    text-align: right;
+}
+
+.content-section {
+    width: 360px;
+    align-items: center;
+    box-sizing: border-box;
+}
+
+.content-section_theme_dark {
+    background-color: #131313;
+    color: #F5F5F5;
+}
+
+.content-section_theme_bright {
+    background-color: #FEE42A;
+    color: #131313;
+}
+
+header {
+    padding: 24px 20px 24px 20px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.header__logo {
+    width: 78px;
+    align-self: start;
+}
+
+.header__logo-image {
+    width: 78px;
+}
+
+.header__menu {
+    margin-left: auto;
+    align-items: flex-start;
+}
+
+.header__menu-list {
+    display: flex;
+    list-style: none;
+    flex-direction: column;
+    gap: 12px;
+}
+
+.header__menu-item {
+    text-decoration: underline;
+    text-underline-offset: 3px;
+}
+
+.header__menu-item_active {
+    text-decoration: none;
+}
+
+.header__menu-link {
+    color: #F5F5F5;
+    font-family: Inter, sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 120%;
+}
+
+.cover {
+    padding: 7px 0px 35px 20px;
+    background-image: url(../images/cover.svg);
+    background-repeat: no-repeat;
+    background-position-x: 20px;
+    background-position-y: 30px;
+    background-size: auto 198px;
+}
+
+.cover__title {
+    font-family: "EB Garamond", serif;
+    font-size: 72px;
+    font-weight: 400;
+    line-height: 100%;
+    padding-right: 24px;
+}
+
+.intro {
+    padding: 0px 20px 38px 20px;
+}
+
+.intro__heading {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 24px;
+    color: #CCCCCC;
+}
+
+.intro__title {
+    width: 203px;
+    line-height: 120%;
+}
+
+.intro__date {
+    white-space: nowrap;
+    color: #CCCCCC;
+    line-height: 120%;
+}
+
+.intro__main-text {
+    display: flex;
+    justify-content: flex-start;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 24px;
+    color:#F5F5F5
+}
+
+.p-intro {
+    line-height: 135%;
+}
+
+.reasons {
+    padding: 40px 20px 40px 16px;
+    display: grid;
+    gap: 32px;
+}
+
+.content-section__subtitle {
+    font-family: "EB Garamond Medium", serif; 
+    font-size: 28px;
+    line-height: 115%;
+    font-weight: 500;
+    margin-left: 4px;
+}
+
+.content-section__introduction {
+    font-family: Inter, sans-serif;
+    font-size: 20px;
+    line-height: 135%;
+    margin-left: 4px;
+}
+
+.content-section__list {
+    list-style-type: disc;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    gap: 16px;
+    font-size: 16px;
+    margin-left: 20px;
+}
+
+li:last-of-type {
+    margin-bottom: 0px;
+}
+
+.content-section__list-accent {
+    font-weight: 700;
+    color: #131313;
+}
+
+.content-section__list-item {
+    color: #131313;
+    font-weight: 400;
+    line-height: 21.6px;
+}
+
+.how-to {
+    display: grid;
+    gap: 32px;
+    padding: 40px 20px 60px 16px;
+}
+
+.cards-list {
+    display: grid;
+    gap: 32px;
+    margin-left: 4px;
+}
+
+.card {
+    display: grid;
+    gap: 8px;
+    padding: 20px;
+    border-radius: 30px;
+    list-style-type: none;
+}
+
+.card__author {
+    display: grid;
+    row-gap: 8px;
+}
+
+.card__author-photo {
+    width: 100px;
+}
+
+.card__author-name {
+    font-family: "Inter Bold", sans-serif;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 135%;
+}
+
+.card__content {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    gap: 8px;
+}
+
+.card__title {
+    font-family: "EB Garamond Medium", serif;
+    font-size: 22px;
+    font-weight: 500;
+    line-height: 135%;
+}
+
+.card__text {
+    font-family: Inter, sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 135%;   
+}
+
+.card_theme_dark {
+    background-color: #343434;
+    color: #F5F5F5;
+}
+
+.card_theme_bright {
+    background-color: #FEE42A;
+    color: #131313;
+}
+
+footer {
+    padding: 20px 20px 20px 20px;
+    color: #F5F5F5;
+    display: flex;
+    justify-content: space-between;
+    background-color: #131313;
+    border-top: 1px solid #FEE42A;
+}
+
+.footer__copy {
+    font-family: Inter, sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 135%;
+}
+
+.footer__links {
+    list-style-type: none;
+    display: flex;
+    gap: 16px;
+    font-size: 14px;
+    line-height: 125%;
+    font-weight: 400;
+}
