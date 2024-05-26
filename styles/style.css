@@ -31,6 +31,7 @@ blockquote {
   width: 360px;
   align-items: center;
   box-sizing: border-box;
+  margin: auto;
 }
 
 .content-section_theme_dark {
